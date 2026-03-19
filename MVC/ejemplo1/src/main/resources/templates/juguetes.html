@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns="https://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jueguetes</title>
+</head>
+<body>
+    <h1>Seccion de juguetes</h1>
+    <p th:text="${juguete.nombre}"></p>
+    <img th:src="${juguete.foto}" alt=" Aqui va la foto del juguete">
+</body>
+</html>
